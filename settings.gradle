@@ -1,0 +1,15 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+    }
+}
+rootProject.name = "TakeNote"
+include ':app'
+include ':feature:note'
+include ':core'
+include ':networking'
+include ':navigation'
+include ':core_ui'
